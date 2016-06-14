@@ -135,13 +135,13 @@ Copyright:Copyright is a legal right created by the law of a country, that grant
 							<div class="col-sm-5 text-right">
 				                <ul class="topbar-list list-inline">
 					                <li>						
-							            <a class="btn btn-social-icon btn-rw btn-primary btn-xs">
+							            <a href="https://twitter.com/shatkonlabs1" target="_blank" class="btn btn-social-icon btn-rw btn-primary btn-xs">
 											<i class="fa fa-twitter"></i>
 										</a>
-										<a class="btn btn-social-icon btn-rw btn-primary btn-xs">
+										<a href="" target="_blank" class="btn btn-social-icon btn-rw btn-primary btn-xs">
 											<i class="fa fa-instagram"></i>
 										</a>
-										<a class="btn btn-social-icon btn-rw btn-primary btn-xs">
+										<a href="https://www.facebook.com/profile.php?id=100012328729544" target="_blank" class="btn btn-social-icon btn-rw btn-primary btn-xs">
 											<i class="fa fa-facebook"></i>
 										</a>
 									</li>
@@ -159,32 +159,40 @@ Copyright:Copyright is a legal right created by the law of a country, that grant
 				<!-- End Top Bar -->
 
 				<!-- Login -->
-				<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="loginLabel" aria-hidden="true">
+				<div class="modal fade" id="career" tabindex="-1" role="dialog" aria-labelledby="careerLabel" aria-hidden="true">
 				    <div class="modal-dialog modal-sm">
 				        <div class="modal-content">
 				            <div class="modal-header">
 				                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
-				                <h4 class="modal-title" id="loginLabel">Login</h4>
+				                <h4 class="modal-title" id="loginLabel">Career With Shatkon Labs</h4>
 				            </div>
 				            <div class="modal-body">
-					            <form role="form">
+					            <form role="form" enctype="multipart/form-data">
+					            	<div class="form-group">
+						                <label for="exampleInputEmail1">Name</label>
+						                <input type="text" class="form-control" id="name" placeholder="Enter Name">
+						            </div>
 						            <div class="form-group">
 						                <label for="exampleInputEmail1">Email address</label>
-						                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+						                <input type="email" class="form-control" onkeyup="nospaces(this)" id="email" placeholder="Enter email">
 						            </div>
 						            <div class="form-group">
-						                <label for="exampleInputPassword1">Password</label>
-						                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+						                <label for="exampleInputPassword1">Mobile No.</label>
+						                <input type="number" class="form-control" onkeyup="nospaces(this)" id="mobile2" placeholder="Enter Phone Number">
 						            </div>
-						            <div class="checkbox">
+						            <div class="form-group">
+						                <label for="exampleInputEmail1">Upload Resume</label>
+						                <input type="file" class="form-control" id="resume" title="Upload your Resume">
+						            </div>
+						            <!-- <div class="checkbox">
 						                <label>
 						                    <input type="checkbox"> Do you flex?
 						                </label>
-						            </div>
+						            </div> -->
 						        </form><!-- /form -->
 				            </div>
 				            <div class="modal-footer">
-				                <button type="button" class="btn btn-rw btn-primary">Login</button>
+				                <button type="button" id="sendResume" onclick="send_resume()" class="btn btn-rw btn-primary">Send</button>
 				            </div>
 				        </div><!-- /modal content -->
 				    </div><!-- /modal dialog -->
@@ -368,7 +376,7 @@ Copyright:Copyright is a legal right created by the law of a country, that grant
 									        	</ul> -->
 									        </li>
 									        <li class="dropdown dropdown-main">
-									        	<a href="#" >Career</a>
+									        	<a data-toggle="modal" data-target="#career">Career</a>
 									        </li>
 											<li class="dropdown dropdown-main">
 									        	<a href="#" >Portfolio<!-- class="dropdown-toggle" data-toggle="dropdown"<span class="fa fa-angle-down dropdown-arrow"></span> --></a>
@@ -440,7 +448,7 @@ Copyright:Copyright is a legal right created by the law of a country, that grant
 									        	</ul> -->
 									        </li>
 											<li class="dropdown hidden-sm hidden-xs">
-						                    	<a href="http://9599075355" target="_blank" class="ml10 nav-circle-li dropdown-toggle dropdown-form-toggle"><i class="fa fa-phone"></i></a>
+						                    	<a href="tel://9599075355" target="_blank" class="ml10 nav-circle-li dropdown-toggle dropdown-form-toggle"><i class="fa fa-phone"></i></a>
 						                        <!--  data-toggle="dropdown"<ul class="fadeInUp-animated dropdown-menu dropdown-menu-user cart">
 						                            <li id="dropdownForm">
 						                            	<div class="dropdown-form">
@@ -1090,7 +1098,7 @@ Copyright:Copyright is a legal right created by the law of a country, that grant
 									</div><!-- /mask-->
 								</div><!-- /portfolio hover -->
 								<div class="portfolio-text mt20 mb5">
-								  	<h3 class="portfolio-title"><a href="http://www.collap.com">Collap</a></h3>
+								  	<h3 class="portfolio-title"><a href="http://www.collap.com" target="_blank" >Collap</a></h3>
 								  	<div class="project-category">Social Networking</div>
 								</div>
 							</li><!-- /list item -->
@@ -1106,14 +1114,14 @@ Copyright:Copyright is a legal right created by the law of a country, that grant
 											<a class="popup-vimeo info" href="./images/projects/thumbs/shatkonjobs.png">
 												<div class="image-icon-holder"><span class="ion-ios7-search image-icons"></span></div>
 											</a>
-											<a href="http://www.shatkonjobs.com" class="info">
+											<a href="http://www.shatkonjobs.com" target="_blank" class="info">
 												<div class="image-icon-holder"><span class="ion-link image-icons"></span></div>
 											</a>
 										</div><!-- /portfolio hover content -->
 									</div><!-- /mask-->
 								</div><!-- /portfolio hover -->
 								<div class="portfolio-text mt20 mb5">
-								  	<h3 class="portfolio-title"><a class="popup-vimeo" href="http://www.shatkonjobs.com">Shatkon Jobs</a></h3>
+								  	<h3 class="portfolio-title"><a class="popup-vimeo" href="http://www.shatkonjobs.com" target="_blank" >Shatkon Jobs</a></h3>
 								  	<div class="project-category">Job Portal</div>
 								</div>
 							</li><!-- /list item -->
@@ -1130,14 +1138,14 @@ Copyright:Copyright is a legal right created by the law of a country, that grant
 											<a href="./images/projects/thumbs/blueteam.png" class="info image-zoom-link">
 												<div class="image-icon-holder"><span class="ion-ios7-search image-icons"></span></div>
 											</a>
-											<a href="http://www.blueteam.in" class="info">
+											<a href="http://www.blueteam.in" target="_blank" class="info">
 												<div class="image-icon-holder"><span class="ion-link image-icons"></span></div>
 											</a>
 										</div><!-- /portfolio hover content -->
 									</div><!-- /mask-->
 								</div><!-- /portfolio hover -->
 								<div class="portfolio-text mt20 mb5">
-								  	<h3 class="portfolio-title"><a href="http://www.blueteam.in">BlueTeam</a></h3>
+								  	<h3 class="portfolio-title"><a href="http://www.blueteam.in" target="_blank" >BlueTeam</a></h3>
 								  	<div class="project-category">Domestic Services Provider</div>
 								</div>
 							</li><!-- /list item -->
@@ -1154,14 +1162,14 @@ Copyright:Copyright is a legal right created by the law of a country, that grant
 											<a href="./images/projects/thumbs/shatkonnet.png" class="info image-zoom-link">
 												<div class="image-icon-holder"><span class="ion-ios7-search image-icons"></span></div>
 											</a>
-											<a href="http://www.shatkonnet.com" class="info">
+											<a href="http://www.shatkonnet.com" target="_blank" class="info">
 												<div class="image-icon-holder"><span class="ion-link image-icons"></span></div>
 											</a>
 										</div><!-- /portfolio hover content -->
 									</div><!-- /mask-->
 								</div><!-- /portfolio hover -->
 								<div class="portfolio-text mt20 mb5">
-								  	<h3 class="portfolio-title"><a href="http://www.shatkonnet.com">Shatkon Net</a></h3>
+								  	<h3 class="portfolio-title"><a href="http://www.shatkonnet.com" target="_blank" >Shatkon Net</a></h3>
 								  	<div class="project-category">Management Tool</div>
 								</div>
 							</li><!-- /list item -->
@@ -1252,7 +1260,7 @@ Copyright:Copyright is a legal right created by the law of a country, that grant
 					                <div class="caption v-wrap">
 					                	<div class="thumbnail-caption-holder v-box">
 						                    <h4 class="text-white">BLUE TEAM</h4>
-						                    <a href="http://blueteam.in" class="btn btn-rw btn-clear"><span class="ion-android-search"></span> View</a>
+						                    <a href="http://blueteam.in" target="_blank" class="btn btn-rw btn-clear"><span class="ion-android-search"></span> View</a>
 					                    </div>
 					                </div>
 					                <img src="images/projects/thumbs/blueteam.png" alt="...">
@@ -1261,7 +1269,7 @@ Copyright:Copyright is a legal right created by the law of a country, that grant
 					                <div class="caption">
 					                	<div class="thumbnail-caption-holder">
 						                    <h4 class="text-white">SHATKON JOBS</h4>
-						                    <a href="http://shatkonjobs.com" class="btn btn-rw btn-clear"><span class="ion-android-search"></span> View</a>
+						                    <a href="http://shatkonjobs.com" target="_blank" class="btn btn-rw btn-clear"><span class="ion-android-search"></span> View</a>
 					                    </div>
 					                </div>
 					                <img src="images/projects/thumbs/shatkonjobs.png" alt="...">
@@ -1270,7 +1278,7 @@ Copyright:Copyright is a legal right created by the law of a country, that grant
 					                <div class="caption">
 					                	<div class="thumbnail-caption-holder">
 						                    <h4 class="text-white">SHATKON NET</h4>
-						                    <a href="http://shatkonnet.com" class="btn btn-rw btn-clear"><span class="ion-android-search"></span> View</a>
+						                    <a href="http://shatkonnet.com" target="_blank" class="btn btn-rw btn-clear"><span class="ion-android-search"></span> View</a>
 					                    </div>
 					                </div>
 					                <img src="images/projects/thumbs/shatkonnet.png" alt="...">
@@ -1279,7 +1287,7 @@ Copyright:Copyright is a legal right created by the law of a country, that grant
 					                <div class="caption">
 					                	<div class="thumbnail-caption-holder">
 						                    <h4 class="text-white">COLLAP</h4>
-						                    <a href="http://collap.com" class="btn btn-rw btn-clear"><span class="ion-android-search"></span> View</a>
+						                    <a href="http://collap.com" target="_blank" class="btn btn-rw btn-clear"><span class="ion-android-search"></span> View</a>
 					                    </div>
 					                </div>
 					                <img src="images/projects/thumbs/collap.jpg" alt="...">
@@ -1288,7 +1296,7 @@ Copyright:Copyright is a legal right created by the law of a country, that grant
 					                <div class="caption">
 					                	<div class="thumbnail-caption-holder">
 						                    <h4 class="text-white">Exam Igniter</h4>
-						                    <a href="http://examigniter.in" class="btn btn-rw btn-clear"><span class="ion-android-search"></span> View</a>
+						                    <a href="http://examigniter.in" target="_blank" class="btn btn-rw btn-clear"><span class="ion-android-search"></span> View</a>
 					                    </div>
 					                </div>
 					                <img src="images/projects/thumbs/examigniter.png" alt="...">
@@ -1374,36 +1382,36 @@ Copyright:Copyright is a legal right created by the law of a country, that grant
 			            <!-- Social -->
 			            <div class="col-sm-3 mg25-xs">
 			                <div class="heading-footer"><h4>Social Networks</h4></div>
-			                <a href="https://twitter.com/shatkonlabs1" class="btn btn-social-icon btn-twitter btn-lg">
+			                <a href="https://twitter.com/shatkonlabs1" target="_blank" class="btn btn-social-icon btn-twitter btn-lg">
 			                    <i class="fa fa-twitter"></i>
 			                </a>
-			                <a class="btn btn-social-icon btn-instagram btn-lg">
+			                <a href="https://www.instagram.com/shatkonlabs/?hl=en" target="_blank" class="btn btn-social-icon btn-instagram btn-lg">
 			                    <i class="fa fa-instagram"></i>
 			                </a>
-			                <a class="btn btn-social-icon btn-facebook btn-lg">
+			                <a href="https://www.facebook.com/profile.php?id=100012328729544" target="_blank" class="btn btn-social-icon btn-facebook btn-lg">
 			                    <i class="fa fa-facebook"></i>
 			                </a>
-			                <a class="btn btn-social-icon btn-vimeo btn-lg">
+			                <a href="https://vimeo.com/user53167581" target="_blank" class="btn btn-social-icon btn-vimeo btn-lg">
 			                    <i class="fa fa-vimeo-square"></i>
 			                </a>
-			                <a class="btn btn-social-icon btn-linkedin btn-lg">
+			                <a href="https://www.linkedin.com/in/shatkon-labs-679829120" target="_blank" class="btn btn-social-icon btn-linkedin btn-lg">
 			                    <i class="fa fa-linkedin"></i>
 			                </a>
-			                <a href="https://plus.google.com/u/0/110262724836533344452/posts?hl=en" class="btn btn-social-icon btn-google-plus btn-lg">
+			                <a href="https://plus.google.com/u/0/110262724836533344452/posts?hl=en" target="_blank" class="btn btn-social-icon btn-google-plus btn-lg">
 			                    <i class="fa fa-google-plus"></i>
 			                </a>
-			                <a class="btn btn-social-icon btn-adn btn-lg">
+			                <a href="https://alpha.app.net/shatkonlabs" target="_blank" class="btn btn-social-icon btn-adn btn-lg">
 			                    <i class="fa fa-adn"></i>
 			                </a>
-			                <a class="btn btn-social-icon btn-bitbucket btn-lg">
+			                <!-- <a class="btn btn-social-icon btn-bitbucket btn-lg">
 			                    <i class="fa fa-bitbucket"></i>
-			                </a>
-			                <a class="btn btn-social-icon btn-tumblr btn-lg">
+			                </a> -->
+			                <a href="https://www.tumblr.com/dashboard" target="_blank" class="btn btn-social-icon btn-tumblr btn-lg">
 			                    <i class="fa fa-tumblr"></i>
 			                </a>
-			                <a class="btn btn-social-icon btn-flickr btn-lg">
+			                <!-- <a href="" class="btn btn-social-icon btn-flickr btn-lg">
 			                    <i class="fa fa-flickr"></i>
-			                </a>
+			                </a> -->
 			            </div>
 
 			            <!-- Contact -->
@@ -1418,17 +1426,17 @@ Copyright:Copyright is a legal right created by the law of a country, that grant
 			            <div class="col-sm-3 hidden-xs">
 			                <div class="heading-footer"><h4>Recent Work</h4></div>
 			                <div class="col-xs-4 recent-work-padding">
-			                    <a href=""http://www.blueteam.in"" class="thumbnail image-zoom-link">
+			                    <a href="http://www.blueteam.in" target="_blank" class="thumbnail image-zoom-link">
 			                      <img src="images/projects/thumbs/blueteam.png" alt="..." class="thumbnail img-responsive">
 			                    </a>
 			                </div>
 			                <div class="col-xs-4 recent-work-padding">
-			                    <a href="http://www.shatkonnet.com" class="thumbnail image-zoom-link">
+			                    <a href="http://www.shatkonnet.com" target="_blank" class="thumbnail image-zoom-link">
 			                      <img src="images/projects/thumbs/shatkonnet.png" alt="..." class="thumbnail img-responsive">
 			                    </a>
 			                </div>
 			                <div class="col-xs-4 recent-work-padding">
-			                    <a href="http://www.shatkonjobs.com" class="thumbnail image-zoom-link">
+			                    <a href="http://www.shatkonjobs.com" target="_blank" class="thumbnail image-zoom-link">
 			                      <img src="images/projects/thumbs/shatkonjobs.png" alt="..." class="thumbnail img-responsive">
 			                    </a>
 			                </div>
@@ -1492,6 +1500,7 @@ Copyright:Copyright is a legal right created by the law of a country, that grant
 	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
 	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/validation.js"></script>
 
 	<!-- Slider Revolution Main -->
 	<script type="text/javascript">
@@ -1563,7 +1572,7 @@ Copyright:Copyright is a legal right created by the law of a country, that grant
 			gridwidth:1240,
 			gridheight:497 
 	    }); 
-	}); 
+	});
 	</script>
 </body>
 </html>
