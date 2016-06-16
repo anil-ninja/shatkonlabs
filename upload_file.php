@@ -25,11 +25,11 @@ if(isset($_GET['name'])){
   $uid = md5(uniqid(time()));
   $filename = basename($file);
   // header
-  //$headers .= "Content-Type: multipart/mixed; boundary=\"".$uid."\"\r\n\r\n";
+  $headers .= "Content-Type: multipart/mixed; boundary=\"".$uid."\"\r\n\r\n";
   $message = "My name is ".$name." mobile no. ".$mobile." and email-id ".$email."
-  				<br/> This email is sent by shatkonlabs \r\n";
+  				\n \n This email is sent by shatkonlabs \r\n";
 // message & attachment
- /* $message .= "--".$uid."\r\n";
+  $message .= "--".$uid."\r\n";
   $message .= "Content-type:text/plain; charset=iso-8859-1\r\n";
   $message .= "Content-Transfer-Encoding: 7bit\r\n\r\n";
   $message .= $message."\r\n\r\n";
@@ -38,8 +38,8 @@ if(isset($_GET['name'])){
   $message .= "Content-Transfer-Encoding: base64\r\n";
   $message .= "Content-Disposition: attachment; filename=\"".$filename."\"\r\n\r\n";
   $message .= $content."\r\n\r\n";
-  $message .= "--".$uid."--";*/
-  $to = "anil@blueteam.in";
+  $message .= "--".$uid."--";
+  $to = "hr@blueteam.in";
   $subject = "Resume";
   
   mail($to,$subject,$message,$headers);				
