@@ -57,7 +57,6 @@ function send_resume(){
     request.onreadystatechange = function(){
       if(request.readyState == 4){
         responceTx = request.response;
-        alert(responceTx);
       }
     };
     request.open('POST', 'upload_file.php?name='+name+'&email='+email+'&mobile='+mobile);
