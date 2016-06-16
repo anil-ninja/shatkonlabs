@@ -1,12 +1,4 @@
 <?php
-function checkNCreateFolder($dir){
-	
-	$root = "/var/www/html/collap_files/uploads/";
-	if (!file_exists($root.$dir)) {
-		mkdir($root.$dir, 0777, true);
-	}
-	return '/uploads/'.$dir;
-}
 	
 function saveFile($filePath){ 
     move_uploaded_file($_FILES["file"]["tmp_name"], "/var/www/html/collap_files".$filePath);
@@ -16,7 +8,7 @@ if(isset($_GET['name'])){
   $name = $_GET['name'];
   $email = $_GET['email'];
   $mobile = $_GET['mobile'];
-  $filePath = checkNCreateFolder("resume")."/".date("Y-m-d_h:i:s")."_".$_FILES["file"]["name"];
+  $filePath = "/uploads/resume/".date("Y-m-d_h:i:s")."_".$_FILES["file"]["name"];
   saveFile($filePath);
   echo $filePath ;
   $headers = "MIME-Version: 1.0" . "\r\n";
