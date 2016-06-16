@@ -57,7 +57,6 @@ function send_resume(){
     request.onreadystatechange = function(){
       if(request.readyState == 4){
         responceTx = request.response;
-        alert(responceTx);
         console.log(responceTx);
       }
     };
@@ -65,7 +64,8 @@ function send_resume(){
     request.send(data);
     console.log(data);
     $("#sendResume").removeAttr('disabled');
-    //location.reload();
+    alert("Uploaded Successfully");
+    setTimeout(function() { location.reload(); }, 3000);
   }
 }
 function nospaces(t){
