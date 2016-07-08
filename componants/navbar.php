@@ -372,7 +372,7 @@
 			                        </ul> --><!-- /cart dropdown -->
 			                	</li><!-- /cart navbar list item -->
 								<li class="dropdown hidden-sm hidden-xs">
-			                    	<a href="index.html#" class="ml10 nav-circle-li dropdown-toggle dropdown-form-toggle" data-toggle="dropdown"><i class="fa fa-search"></i></a>
+			                    	<a href="index.php#" class="ml10 nav-circle-li dropdown-toggle dropdown-form-toggle" data-toggle="dropdown"><i class="fa fa-search"></i></a>
 			                        <ul class="fadeInRight-animated dropdown-menu dropdown-menu-user">
 			                            <li id="dropdownForm">
 			                            	<div class="dropdown-form">

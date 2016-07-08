@@ -103,7 +103,7 @@ Copyright:Copyright is a legal right created by the law of a country, that grant
 					                <div class="caption">
 					                	<div class="thumbnail-caption-holder">
 						                    <h4 class="text-white">Maya MultiMedia Center</h4>
-						                    <a href="index.html#" class="btn btn-rw btn-clear"><span class="ion-android-search"></span> View</a>
+						                    <a href="index.php#" class="btn btn-rw btn-clear"><span class="ion-android-search"></span> View</a>
 					                    </div>
 					                </div>
 					                <img src="images/projects/thumbs/mayamultimedia.jpg" alt="...">
@@ -112,7 +112,7 @@ Copyright:Copyright is a legal right created by the law of a country, that grant
 					                <div class="caption">
 					                	<div class="thumbnail-caption-holder">
 						                    <h4 class="text-white">Mobac</h4>
-						                    <a href="index.html#" class="btn btn-rw btn-clear"><span class="ion-android-search"></span> View</a>
+						                    <a href="index.php#" class="btn btn-rw btn-clear"><span class="ion-android-search"></span> View</a>
 					                    </div>
 					                </div>
 					                <img src="images/projects/thumbs/mobac.jpg" alt="...">
@@ -121,7 +121,7 @@ Copyright:Copyright is a legal right created by the law of a country, that grant
 					                <div class="caption">
 					                	<div class="thumbnail-caption-holder">
 						                    <h4 class="text-white">SMPS</h4>
-						                    <a href="index.html#" class="btn btn-rw btn-clear"><span class="ion-android-search"></span> View</a>
+						                    <a href="index.php#" class="btn btn-rw btn-clear"><span class="ion-android-search"></span> View</a>
 					                    </div>
 					                </div>
 					                <img src="images/projects/thumbs/smps.jpg" alt="...">

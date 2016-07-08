@@ -420,7 +420,7 @@ Copyright:Copyright is a legal right created by the law of a country, that grant
 								<div class="panel panel-default">
 									<div class="panel-heading">
 									  <h4 class="panel-title">
-									    <a data-toggle="collapse" data-parent="#accordion" href="index.html#collapseOne">
+									    <a data-toggle="collapse" data-parent="#accordion" href="index.php#collapseOne">
 									      We design & develop qaulity products to help small & medium level business. .
 									    </a>
 									  </h4>
@@ -518,9 +518,9 @@ Copyright:Copyright is a legal right created by the law of a country, that grant
 					            <div class="team-description">
 					                <p>Rahul Lahoria is the Founder of Shatkon Labs and a true clue programmer. He’s passionate about the limitless possibilities that well written Software programs offer to make the world a better place to live in, literally. An efficiency freak, he’s obsessed about developing software which is not only efficient at what it is meant to do but also to run computationally exhaustive software over less computational devices. Rahul holds a Masters Degree in IT from Indian Institute of Technology, Kharagpur.</p>
 					                <!-- Social -->
-					                <a href="index.html#"><span class="ion-social-twitter team-ico mr15"></span></a>
-					                <a href="index.html#"><span class="ion-social-facebook team-ico mr15"></span></a>
-					                <a href="index.html#"><span class="ion-social-googleplus-outline team-ico"></span></a>
+					                <a href="https://twitter.com/rahul_lahoria" target='_blank'><span class="ion-social-twitter team-ico mr15"></span></a>
+					                <a href="https://www.facebook.com/rahul.lahoria" target='_blank'><span class="ion-social-facebook team-ico mr15"></span></a>
+					                <a href="https://plus.google.com/u/0/110694793146590155461/about"><span class="ion-social-googleplus-outline team-ico"></span></a>
 					            </div>
 					        </div><!-- /column -->
 					    </div><!-- /team member holder -->
@@ -542,9 +542,9 @@ Copyright:Copyright is a legal right created by the law of a country, that grant
 										He’s a man on the mission to change things and ensure a smile on the clients face, every single time.
 									</p>
 					                <!-- Social -->
-					                <a href="index.html#"><span class="ion-social-twitter team-ico mr15"></span></a>
-					                <a href="index.html#"><span class="ion-social-facebook team-ico mr15"></span></a>
-					                <a href="index.html#"><span class="ion-social-googleplus-outline team-ico"></span></a>
+					                <a href="https://twitter.com/rajnish90" target='_blank'><span class="ion-social-twitter team-ico mr15"></span></a>
+					                <a href="https://www.facebook.com/Er.rajnish" target='_blank'><span class="ion-social-facebook team-ico mr15"></span></a>
+					                <a href="https://plus.google.com/u/0/+rajnishpanwargotohell/about" target='_blank'><span class="ion-social-googleplus-outline team-ico"></span></a>
 					            </div>
 					        </div><!-- /column -->
 					    </div><!-- /team member holder -->
@@ -565,9 +565,9 @@ Copyright:Copyright is a legal right created by the law of a country, that grant
 									 An entrepreneur at heart and a fun loving enthusiastic person over all, 
 									 he brings with him the best of the worlds of Technology and of Law.</p>
 					                <!-- Social -->
-					                <a href="index.html#"><span class="ion-social-twitter team-ico mr15"></span></a>
-					                <a href="index.html#"><span class="ion-social-facebook team-ico mr15"></span></a>
-					                <a href="index.html#"><span class="ion-social-googleplus-outline team-ico"></span></a>
+					                <a href="https://twitter.com/rutwikrao" target='_blank'><span class="ion-social-twitter team-ico mr15"></span></a>
+					                <a href="https://www.facebook.com/rutwikrao" target='_blank'><span class="ion-social-facebook team-ico mr15"></span></a>
+					                <a href="https://plus.google.com/u/0/109631708785875608152/about" target='_blank'><span class="ion-social-googleplus-outline team-ico"></span></a>
 					            </div>
 					        </div><!-- /column -->
 					    </div><!-- /team member holder -->
@@ -585,9 +585,9 @@ Copyright:Copyright is a legal right created by the law of a country, that grant
 					            <div class="team-description">
 					                <p>Vikas Nagar have specialization in marketing. His quest to become an entrepreneur to solve the difficulties faced by the people lends him as a Cofounder of Sharkon Labs. He is innovative, analytical and  possesses the determination necessary to get the job done. He has Masters in Business Administration from NIPER, Mohali.</p>
 					                
-					                <a href="index.html#"><span class="ion-social-twitter team-ico mr15"></span></a>
-					                <a href="index.html#"><span class="ion-social-facebook team-ico mr15"></span></a>
-					                <a href="index.html#"><span class="ion-social-googleplus-outline team-ico"></span></a>
+					                <a href="index.php"><span class="ion-social-twitter team-ico mr15"></span></a>
+					                <a href="https://www.facebook.com/vikas.nagar.9803" target='_blank'><span class="ion-social-facebook team-ico mr15"></span></a>
+					                <a href="https://plus.google.com/u/0/109385069248634223664/about" target='_blank'><span class="ion-social-googleplus-outline team-ico"></span></a>
 					            </div>
 					        </div>
 					    </div> --><!-- /team member holder
@@ -764,10 +764,10 @@ Copyright:Copyright is a legal right created by the law of a country, that grant
 								</div>
 
 								<!-- Controls -->
-								<a class="left carousel-control" href="index.html#homeCarousel2" role="button" data-slide="prev">
+								<a class="left carousel-control" href="index.php#homeCarousel2" role="button" data-slide="prev">
 									<span class="ion-ios7-arrow-left carousel-arrow-left" aria-hidden="true"></span>
 								</a>
-								<a class="right carousel-control" href="index.html#homeCarousel2" role="button" data-slide="next">
+								<a class="right carousel-control" href="index.php#homeCarousel2" role="button" data-slide="next">
 									<span class="ion-ios7-arrow-right carousel-arrow-right" aria-hidden="true"></span>
 								</a>
 							</div>
@@ -858,7 +858,7 @@ Copyright:Copyright is a legal right created by the law of a country, that grant
 					                <div class="caption">
 					                	<div class="thumbnail-caption-holder">
 						                    <h4 class="text-white">Maya MultiMedia Center</h4>
-						                    <a href="index.html#" class="btn btn-rw btn-clear"><span class="ion-android-search"></span> View</a>
+						                    <a href="index.php#" class="btn btn-rw btn-clear"><span class="ion-android-search"></span> View</a>
 					                    </div>
 					                </div>
 					                <img src="images/projects/thumbs/mayamultimedia.jpg" alt="...">
@@ -867,7 +867,7 @@ Copyright:Copyright is a legal right created by the law of a country, that grant
 					                <div class="caption">
 					                	<div class="thumbnail-caption-holder">
 						                    <h4 class="text-white">Mobac</h4>
-						                    <a href="index.html#" class="btn btn-rw btn-clear"><span class="ion-android-search"></span> View</a>
+						                    <a href="index.php#" class="btn btn-rw btn-clear"><span class="ion-android-search"></span> View</a>
 					                    </div>
 					                </div>
 					                <img src="images/projects/thumbs/mobac.jpg" alt="...">
@@ -876,7 +876,7 @@ Copyright:Copyright is a legal right created by the law of a country, that grant
 					                <div class="caption">
 					                	<div class="thumbnail-caption-holder">
 						                    <h4 class="text-white">SMPS</h4>
-						                    <a href="index.html#" class="btn btn-rw btn-clear"><span class="ion-android-search"></span> View</a>
+						                    <a href="index.php#" class="btn btn-rw btn-clear"><span class="ion-android-search"></span> View</a>
 					                    </div>
 					                </div>
 					                <img src="images/projects/thumbs/smps.jpg" alt="...">

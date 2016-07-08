@@ -72,10 +72,10 @@ Copyright:Copyright is a legal right created by the law of a country, that grant
 								</div>
 
 								<!-- Controls -->
-								<a class="left carousel-control" href="index.html#homeCarousel2" role="button" data-slide="prev">
+								<a class="left carousel-control" href="index.php#homeCarousel2" role="button" data-slide="prev">
 									<span class="ion-ios7-arrow-left carousel-arrow-left" aria-hidden="true"></span>
 								</a>
-								<a class="right carousel-control" href="index.html#homeCarousel2" role="button" data-slide="next">
+								<a class="right carousel-control" href="index.php#homeCarousel2" role="button" data-slide="next">
 									<span class="ion-ios7-arrow-right carousel-arrow-right" aria-hidden="true"></span>
 								</a>
 							</div>
