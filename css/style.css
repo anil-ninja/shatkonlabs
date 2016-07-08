@@ -2304,8 +2304,8 @@ h6.progress-head {
 	border-radius:50%;
 }
 .team-ico {
-	font-size:16px;
-	color:#dfdfdf;
+	font-size:32px;
+	color:lightblue;
 }
 .team-ico:hover {
 	color:#00B7EB;

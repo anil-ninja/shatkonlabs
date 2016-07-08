@@ -583,7 +583,7 @@ Copyright:Copyright is a legal right created by the law of a country, that grant
 					            <h4 class="team-member-name">Vikas Nagar</h4>
 					            
 					            <div class="team-description">
-					                <p>Vikas Nagar have specialization in marketing. His quest to become an entrepreneur to solve the difficulties faced by the people lends him as a Cofounder of Sharkon Labs, who believes in blend of smart & hardworking and a never give up attitude. He is innovative, analytical and  possesses the determination necessary to get the job done. Mr Nagar is amid reader and fond of music. He has masters in Business Administration from NIPER, Mohali.</p>
+					                <p>Vikas Nagar have specialization in marketing. His quest to become an entrepreneur to solve the difficulties faced by the people lends him as a Cofounder of Sharkon Labs. He is innovative, analytical and  possesses the determination necessary to get the job done. He has Masters in Business Administration from NIPER, Mohali.</p>
 					                
 					                <a href="index.html#"><span class="ion-social-twitter team-ico mr15"></span></a>
 					                <a href="index.html#"><span class="ion-social-facebook team-ico mr15"></span></a>
