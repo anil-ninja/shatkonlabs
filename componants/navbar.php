@@ -371,7 +371,7 @@
 			                            </li> 
 			                        </ul> --><!-- /cart dropdown -->
 			                	</li><!-- /cart navbar list item -->
-								<li class="dropdown hidden-sm hidden-xs">
+								<!-- <li class="dropdown hidden-sm hidden-xs">
 			                    	<a href="index.php#" class="ml10 nav-circle-li dropdown-toggle dropdown-form-toggle" data-toggle="dropdown"><i class="fa fa-search"></i></a>
 			                        <ul class="fadeInRight-animated dropdown-menu dropdown-menu-user">
 			                            <li id="dropdownForm">
@@ -382,11 +382,11 @@
 			                                            <span class="input-group-btn">
 			                                                <button class="btn btn-rw btn-primary search-btn" type="button">Go!</button>
 			                                            </span>
-			                                    </form><!-- /searh form -->  
-			                                </div><!-- /dropdown form -->  
-			                            </li><!-- /dropdownForm list item -->  
-			                        </ul><!-- /search dropdown -->
-			                	</li><!-- /search navbar list item --> 
+			                                    </form>
+			                                </div>
+			                            </li>
+			                        </ul>
+			                	</li>  -->
 							</ul><!-- /navbar right -->  
 						</nav><!-- /nav -->
 					</div>
