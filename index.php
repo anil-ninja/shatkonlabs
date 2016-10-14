@@ -637,22 +637,22 @@ Copyright:Copyright is a legal right created by the law of a country, that grant
 						    <li onclick="" class="item col-sm-3 col-xs-6" data-sr="enter bottom">
 								<div class="view-circle img-circle image-hover-1">
 									<!-- Project Thumb -->
-									<img class="img-responsive" src="images/projects/thumbs/collap.jpg" alt="..." />
+									<img class="img-responsive" src="images/projects/thumbs/digi-eye.png" alt="..." />
 							        <div class="mask img-circle">
 								        <div class="image-hover-content">
 								       		<!-- Zoom + Project Link -->
-											<a href="./images/projects/thumbs/collap.jpg" class="info image-zoom-link">
+											<a href="./images/projects/thumbs/digi-eye.png" class="info image-zoom-link">
 												<div class="image-icon-holder"><span class="ion-ios7-search image-icons"></span></div>
 											</a>
-											<a href="http://www.collap.com" target="_blank" class="info">
+											<a href="http://www.digieyetech.com" target="_blank" class="info">
 												<div class="image-icon-holder"><span class="ion-link image-icons"></span></div>
 											</a>
 										</div><!-- /portfolio hover content -->
 									</div><!-- /mask-->
 								</div><!-- /portfolio hover -->
 								<div class="portfolio-text mt20 mb5">
-								  	<h3 class="portfolio-title"><a href="http://www.collap.com" target="_blank" >Collap</a></h3>
-								  	<div class="project-category">Social Networking</div>
+								  	<h3 class="portfolio-title"><a href="http://www.digieyetech.com" target="_blank" >DigiEye</a></h3>
+								  	<div class="project-category">Smart Societies</div>
 								</div>
 							</li><!-- /list item -->
 							<!-- End Item 1 -->
@@ -667,14 +667,14 @@ Copyright:Copyright is a legal right created by the law of a country, that grant
 											<a class="popup-vimeo info" href="./images/projects/thumbs/shatkonjobs.png">
 												<div class="image-icon-holder"><span class="ion-ios7-search image-icons"></span></div>
 											</a>
-											<a href="http://www.shatkonjobs.com" target="_blank" class="info">
+											<a href="http://shatkonjobs.com" target="_blank" class="info">
 												<div class="image-icon-holder"><span class="ion-link image-icons"></span></div>
 											</a>
 										</div><!-- /portfolio hover content -->
 									</div><!-- /mask-->
 								</div><!-- /portfolio hover -->
 								<div class="portfolio-text mt20 mb5">
-								  	<h3 class="portfolio-title"><a class="popup-vimeo" href="http://www.shatkonjobs.com" target="_blank" >Shatkon Jobs</a></h3>
+								  	<h3 class="portfolio-title"><a class="popup-vimeo" href="http://shatkonjobs.com" target="_blank" >Shatkon Jobs</a></h3>
 								  	<div class="project-category">Job Portal</div>
 								</div>
 							</li><!-- /list item -->
@@ -691,14 +691,14 @@ Copyright:Copyright is a legal right created by the law of a country, that grant
 											<a href="./images/projects/thumbs/blueteam.png" class="info image-zoom-link">
 												<div class="image-icon-holder"><span class="ion-ios7-search image-icons"></span></div>
 											</a>
-											<a href="http://www.blueteam.in" target="_blank" class="info">
+											<a href="http://blueteam.in" target="_blank" class="info">
 												<div class="image-icon-holder"><span class="ion-link image-icons"></span></div>
 											</a>
 										</div><!-- /portfolio hover content -->
 									</div><!-- /mask-->
 								</div><!-- /portfolio hover -->
 								<div class="portfolio-text mt20 mb5">
-								  	<h3 class="portfolio-title"><a href="http://www.blueteam.in" target="_blank" >BlueTeam</a></h3>
+								  	<h3 class="portfolio-title"><a href="http://blueteam.in" target="_blank" >BlueTeam</a></h3>
 								  	<div class="project-category">Domestic Services Provider</div>
 								</div>
 							</li><!-- /list item -->
@@ -715,14 +715,14 @@ Copyright:Copyright is a legal right created by the law of a country, that grant
 											<a href="./images/projects/thumbs/shatkonnet.png" class="info image-zoom-link">
 												<div class="image-icon-holder"><span class="ion-ios7-search image-icons"></span></div>
 											</a>
-											<a href="http://www.shatkonnet.com" target="_blank" class="info">
+											<a href="http://bluenet.blueteam.in" target="_blank" class="info">
 												<div class="image-icon-holder"><span class="ion-link image-icons"></span></div>
 											</a>
 										</div><!-- /portfolio hover content -->
 									</div><!-- /mask-->
 								</div><!-- /portfolio hover -->
 								<div class="portfolio-text mt20 mb5">
-								  	<h3 class="portfolio-title"><a href="http://www.shatkonnet.com" target="_blank" >Shatkon Net</a></h3>
+								  	<h3 class="portfolio-title"><a href="http://bluenet.blueteam.in" target="_blank" >Shatkon Net</a></h3>
 								  	<div class="project-category">Management Tool</div>
 								</div>
 							</li><!-- /list item -->
@@ -831,7 +831,7 @@ Copyright:Copyright is a legal right created by the law of a country, that grant
 					                <div class="caption">
 					                	<div class="thumbnail-caption-holder">
 						                    <h4 class="text-white">SHATKON NET</h4>
-						                    <a href="http://shatkonnet.com" target="_blank" class="btn btn-rw btn-clear"><span class="ion-android-search"></span> View</a>
+						                    <a href="http://bluenet.blueteam.in" target="_blank" class="btn btn-rw btn-clear"><span class="ion-android-search"></span> View</a>
 					                    </div>
 					                </div>
 					                <img src="images/projects/thumbs/shatkonnet.png" alt="...">
@@ -839,11 +839,11 @@ Copyright:Copyright is a legal right created by the law of a country, that grant
 								<div class="thumbnail">
 					                <div class="caption">
 					                	<div class="thumbnail-caption-holder">
-						                    <h4 class="text-white">COLLAP</h4>
-						                    <a href="http://collap.com" target="_blank" class="btn btn-rw btn-clear"><span class="ion-android-search"></span> View</a>
+						                    <h4 class="text-white">DIGI EYE</h4>
+						                    <a href="http://digieyetech.com" target="_blank" class="btn btn-rw btn-clear"><span class="ion-android-search"></span> View</a>
 					                    </div>
 					                </div>
-					                <img src="images/projects/thumbs/collap.jpg" alt="...">
+					                <img src="images/projects/thumbs/digi-eye.png" alt="...">
 					            </div>
 								<div class="thumbnail">
 					                <div class="caption">

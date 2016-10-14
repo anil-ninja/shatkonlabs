@@ -84,11 +84,11 @@ Copyright:Copyright is a legal right created by the law of a country, that grant
 								<div class="thumbnail">
 					                <div class="caption">
 					                	<div class="thumbnail-caption-holder">
-						                    <h4 class="text-white">COLLAP</h4>
-						                    <a href="http://collap.com" target="_blank" class="btn btn-rw btn-clear"><span class="ion-android-search"></span> View</a>
+						                    <h4 class="text-white">DIGI EYE</h4>
+						                    <a href="http://digieyetech.com" target="_blank" class="btn btn-rw btn-clear"><span class="ion-android-search"></span> View</a>
 					                    </div>
 					                </div>
-					                <img src="images/projects/thumbs/collap.jpg" alt="...">
+					                <img src="images/projects/thumbs/digi-eye.png" alt="...">
 					            </div>
 								<div class="thumbnail">
 					                <div class="caption">
